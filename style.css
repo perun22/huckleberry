@@ -7,6 +7,26 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+main {
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  background-color: hsl(0deg, 0%, 40%);
+}
+
+.max-width-wrapper {
+  min-height: 100%;
+}
+
+.intro-chunk {
+  width: 23svw;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  min-height: 50svh;
+  width: 55svw;
+}
