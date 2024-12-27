@@ -7,8 +7,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  line-height: 1.5;
 }
 
 /* Add styles here! */
@@ -18,8 +16,13 @@ main {
   background-color: hsl(0deg, 0%, 40%);
 }
 
+h1 {
+  line-height: 2.5;
+  margin: 0;
+}
 p {
   font-size: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 strong {
@@ -28,34 +31,26 @@ strong {
 
 .max-width-wrapper {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 50vh;
-  min-height: 50svh;
+  margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 54px;
 }
 
 .intro-chunk {
-  padding-top: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   max-width: 450px;
-}
-
-.title {
-  margin-bottom: 3rem;;
+  padding-left: 32px;
 }
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
-  padding: 3px 1rem;
-  margin: 4rem 0;
+  padding: 8px 32px;
   max-width: 800px;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 .indented-heading {
-  margin-top: .5rem;
-  margin-left: -1.5rem;
-  padding: .75rem 1.5rem;
+  margin: 0;
+  margin-left: -40px;
+  padding: 16px 32px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   width: fit-content;
